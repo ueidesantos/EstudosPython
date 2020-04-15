@@ -1,0 +1,231 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <EmiteContratoResponse xmlns="http://www.repom.com.br/RepomIntegracaoWs/Integracao">
+            <EmiteContratoResult>true</EmiteContratoResult>
+            <strXmlOut>
+                <processo_transporte>
+                    <os_codigo>0</os_codigo>
+                    <os_tipo>0</os_tipo>
+                    <processo_transporte_codigo>641942</processo_transporte_codigo>
+                    <processo_cliente_codigo>976507943151</processo_cliente_codigo>
+                    <processo_cliente_filial_codigo_cliente>1076</processo_cliente_filial_codigo_cliente>
+                    <filial_descricao>PEDERNEIRAS</filial_descricao>
+                    <data_emissao>09/04/2020 11:44</data_emissao>
+                    <agenda_codigo>0</agenda_codigo>
+                    <contratado>
+                        <contratado_cnpj_cpf>96662853000168 </contratado_cnpj_cpf>
+                        <contratado_nome>TRANSVARY TRANSPORTES LTDA</contratado_nome>
+                        <endereco>AVENIDA CHICA LUISA</endereco>
+                        <estado>SP</estado>
+                        <cep>05183270   </cep>
+                        <pessoa_tipo>Juridica</pessoa_tipo>
+                    </contratado>
+                    <motorista>
+                        <motorista_cpf>11934811807    </motorista_cpf>
+                        <motorista_nome>MARIO DOS SANTOS FAUSTO</motorista_nome>
+                        <carteira_habilitacao>01266339392</carteira_habilitacao>
+                    </motorista>
+                    <cavalo>
+                        <placa>CVP3454   </placa>
+                        <modelo> BOXER FURGAO</modelo>
+                    </cavalo>
+                    <carreta>
+                        <placa></placa>
+                    </carreta>
+                    <dados_viagem>
+                        <percurso_descricao>ARAGUARI(MG) - PARANAGUA(PR) Via SP 050 / SP 348 / BR 116 KMM IDA </percurso_descricao>
+                        <operacao_descricao>ADM BRASIL - OLEO ENVASADO CARGA SOLTA</operacao_descricao>
+                        <liberador_descricao>Sem Liberacao</liberador_descricao>
+                        <cartao_codigo>593320414</cartao_codigo>
+                        <valor_frete>99.50</valor_frete>
+                        <valor_adiantamento>50.00</valor_adiantamento>
+                        <vale_combustivel>0.00</vale_combustivel>
+                        <valor_mercadoria>500.00</valor_mercadoria>
+                        <peso>68510.00</peso>
+                        <relacao_abastecimento>0</relacao_abastecimento>
+                        <relacao_quitacao>0</relacao_quitacao>
+                        <observacao></observacao>
+                        <versao>2</versao>
+                        <ciot>0140003170077541</ciot>
+                        <cartao_pedagio_codigo>593320414</cartao_pedagio_codigo>
+                        <valor_pedagio>59.00</valor_pedagio>
+                        <status_pedagio>1</status_pedagio>
+                    </dados_viagem>
+                    <agendamento_desembarque />
+                    <movimentos>
+                        <movimento>
+                            <movimento_codigo_cliente>131</movimento_codigo_cliente>
+                            <movimento_descricao>Frete</movimento_descricao>
+                            <valor>50.00</valor>
+                            <tipo>Debito</tipo>
+                        </movimento>
+                    </movimentos>
+                    <documentos>
+                        <documento>
+                            <codigo>5469054708503</codigo>
+                            <serie>2</serie>
+                            <filial_codigo_cliente>1076</filial_codigo_cliente>
+                        </documento>
+                    </documentos>
+                    <passagens>
+                        <passagem>
+                            <posto_codigo>900</posto_codigo>
+                            <data_prevista>09/04/2020 18:18</data_prevista>
+                            <nome_fantasia>TRANSBORDO ARAGUARI</nome_fantasia>
+                            <bandeira>Sem Bandeira</bandeira>
+                            <endereco>ARAGUARI</endereco>
+                            <cidade>ARAGUARI</cidade>
+                            <estado>MG</estado>
+                            <telefone>(11)1111-1111</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>76535707000245</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>307</posto_codigo>
+                            <data_prevista>09/04/2020 23:18</data_prevista>
+                            <nome_fantasia>BASE MARTINS  UNIDADE DI 3</nome_fantasia>
+                            <bandeira>Sem Bandeira</bandeira>
+                            <endereco>AV JOSE ANDRAUS GRASSANI 5400</endereco>
+                            <cidade>UBERLANDIA</cidade>
+                            <estado>MG</estado>
+                            <telefone>(34)3230-3918</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>43214055000107</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>1190</posto_codigo>
+                            <data_prevista>09/04/2020 23:18</data_prevista>
+                            <nome_fantasia>POSTO AMIGAO</nome_fantasia>
+                            <bandeira>Ipiranga</bandeira>
+                            <endereco>AV JOSE ANDRAUS GASSANI 7965</endereco>
+                            <cidade>UBERLANDIA</cidade>
+                            <estado>MG</estado>
+                            <telefone>(34) 32131776</telefone>
+                            <preco_diesel>1.880</preco_diesel>
+                            <posto_cnpj>25629809000531</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>821</posto_codigo>
+                            <data_prevista>09/04/2020 23:18</data_prevista>
+                            <nome_fantasia>POSTO TIJUCO</nome_fantasia>
+                            <bandeira>Sem Bandeira</bandeira>
+                            <endereco>ROD. BR 050 KM 135</endereco>
+                            <cidade>UBERABA</cidade>
+                            <estado>MG</estado>
+                            <telefone>(34) 32340685</telefone>
+                            <preco_diesel>1.869</preco_diesel>
+                            <posto_cnpj>00669359000156</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>1040</posto_codigo>
+                            <data_prevista>10/04/2020 04:18</data_prevista>
+                            <nome_fantasia>AUTO POSTO CHINA</nome_fantasia>
+                            <bandeira>Esso</bandeira>
+                            <endereco>R HILARIO AZZOLINI  475</endereco>
+                            <cidade>RIBEIRAO PRETO</cidade>
+                            <estado>SP</estado>
+                            <telefone>(16)3624-4603</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>58865825000159</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>873</posto_codigo>
+                            <data_prevista>10/04/2020 18:18</data_prevista>
+                            <nome_fantasia>POSTO DEROSSO</nome_fantasia>
+                            <bandeira>Shell</bandeira>
+                            <endereco>RUA FRANCISCO DEROSSO, N 420</endereco>
+                            <cidade>CURITIBA</cidade>
+                            <estado>PR</estado>
+                            <telefone>(41)3275-1982</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>76038728000174</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>1006</posto_codigo>
+                            <data_prevista>10/04/2020 18:18</data_prevista>
+                            <nome_fantasia>BASE ALL INTERMODAL</nome_fantasia>
+                            <bandeira>Sem Bandeira</bandeira>
+                            <endereco>RUA JOAO KALINOWSKI, 211</endereco>
+                            <cidade>CURITIBA</cidade>
+                            <estado>PR</estado>
+                            <telefone>(41)2106-9420</telefone>
+                            <preco_diesel>1.000</preco_diesel>
+                            <posto_cnpj>03172874001943</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>1068</posto_codigo>
+                            <data_prevista>10/04/2020 18:18</data_prevista>
+                            <nome_fantasia>AUTO POSTO ANALIPE</nome_fantasia>
+                            <bandeira>BR</bandeira>
+                            <endereco>AV JUSCELINO K DE OLIVEIRA 5951</endereco>
+                            <cidade>CURITIBA</cidade>
+                            <estado>PR</estado>
+                            <telefone>(41) 32451005</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>01129895000121</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>182</posto_codigo>
+                            <data_prevista>11/04/2020 18:18</data_prevista>
+                            <nome_fantasia>POSTO ALDO PARANAGUA I</nome_fantasia>
+                            <bandeira>Shell</bandeira>
+                            <endereco>ROD. BR 277 KM 5</endereco>
+                            <cidade>PARANAGUA</cidade>
+                            <estado>PR</estado>
+                            <telefone>(41) 34236996</telefone>
+                            <preco_diesel>0.000</preco_diesel>
+                            <posto_cnpj>01253054000121</posto_cnpj>
+                        </passagem>
+                        <passagem>
+                            <posto_codigo>227</posto_codigo>
+                            <data_prevista>11/04/2020 18:18</data_prevista>
+                            <nome_fantasia>POSTO ATLANTICO D AMERICA</nome_fantasia>
+                            <bandeira>BR</bandeira>
+                            <endereco>ROD BR 277 KM 10 5  CX. 318</endereco>
+                            <cidade>PARANAGUA</cidade>
+                            <estado>PR</estado>
+                            <telefone>(41)3423-6222</telefone>
+                            <preco_diesel>1.890</preco_diesel>
+                            <posto_cnpj>80604911000167</posto_cnpj>
+                        </passagem>
+                    </passagens>
+                    <quitacao>
+                        <quitacao_local>1213</quitacao_local>
+                        <quitacao_local_descricao>AUTO POSTO VITORIA</quitacao_local_descricao>
+                        <quitacao_local_tipo>0</quitacao_local_tipo>
+                        <quitacao_data_prevista>11/04/2020 20:18</quitacao_data_prevista>
+                        <bandeira>BR</bandeira>
+                        <endereco>R SEIS N 80</endereco>
+                        <cidade>ARAGUARI</cidade>
+                        <estado>MG</estado>
+                        <telefone>(34) 32417008</telefone>
+                        <preco_diesel>1.899</preco_diesel>
+                        <cnpj>04020339000100</cnpj>
+                        <margem_cliente>0</margem_cliente>
+                        <carga_peso_previsto>68510.00</carga_peso_previsto>
+                        <valor_tarifa_cliente>100.00</valor_tarifa_cliente>
+                    </quitacao>
+                    <itens_quitacao>
+                        <item_quitacao>
+                            <item_descricao>AVISO: Nao quitar caso conste ressalva de avaria nos docs</item_descricao>
+                        </item_quitacao>
+                        <item_quitacao>
+                            <item_descricao>Reter canhoto de nota fiscal - Assinado</item_descricao>
+                        </item_quitacao>
+                        <item_quitacao>
+                            <item_descricao>Reter Manifesto de Carga ou Relacao de NFs por Carga</item_descricao>
+                        </item_quitacao>
+                        <item_quitacao>
+                            <item_descricao>Reter via Comp.Entrega/Acomp.Transp. assinado e/ou c/Carimbo</item_descricao>
+                        </item_quitacao>
+                    </itens_quitacao>
+                    <observacoes_contrato />
+                    <observacoes_termos>Atencao: Sr.Motorista a data prevista de entrega da carga e 11/04/2020 19:18</observacoes_termos>
+                </processo_transporte>
+            </strXmlOut>
+            <strXmlErr></strXmlErr>
+        </EmiteContratoResponse>
+    </soap:Body>
+</soap:Envelope>
